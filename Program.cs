@@ -30,6 +30,8 @@ Console.WriteLine($"decimal uses {sizeof(decimal)} bytes and can store numbers i
 Console.WriteLine("Using doubles:");
 double a = 0.1;
 double b = 0.2;
+double c = 0.3;
+
 if (a + b == 0.3)
 {
 Console.WriteLine($"{a} + {b} equals 0.3");
